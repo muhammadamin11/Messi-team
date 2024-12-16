@@ -198,4 +198,307 @@ header label div:nth-child(3) {
     }
 }
 
- 
+/* asliddin css start */
+.asliddin__form {
+    padding-top: 86px;
+    padding-bottom: 160px;
+}
+.asliddin .form-card__box {
+    background-color: #2E96FF;
+    padding: 102px 65px;
+    border-radius: 10px;
+    transform: skewY(-1.5deg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.asliddin .form-card__box .form__content {
+    transform: skewY(1.5deg);
+    max-width: 423px;
+    min-width: 300px;
+}
+.asliddin .form-card__box .form__content h2 {
+    font-size: 31.25px;
+   font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    line-height: 40.6px;
+    color: #fff;
+    margin-bottom: 17px;
+}
+.asliddin .form-card__box .form__content p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+    opacity: 70%;
+}
+.asliddin .form-card__box form {
+    transform: skewY(1.5deg);
+    max-width: 487px;
+    border-radius: 10px;
+    display: flex;
+    width: 100%;
+    border: none;
+}
+.asliddin .form-card__box form input {
+    width: 100%;
+    border: none;
+    padding: 15px 21px;
+    outline: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    color: #170C04;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.asliddin .form-card__box form input::placeholder {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40.6px;
+    color: #170C04;
+    opacity: 40%;
+
+}
+.asliddin .form-card__box form button {
+    background-color: #E27B3A;
+    color: #fff;
+    border: none;
+    padding: 15px 37px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 40.6px;
+}
+
+/* asliddin footer */
+.asliddin__footer .corner {
+    width: 80%;
+    height: 140px;
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.asliddin__footer .corner__left {
+    width: 50%;
+    height: 100%;
+    transform: skewY(-13deg);
+    background-color: #140A03;
+}
+.asliddin__footer .corner__right {
+    width: 50%;
+    height: 100%;
+    transform: skewY(13deg);
+    background-color: #140A03;
+}
+.asliddin__footer {
+    background-color: #140A03;
+}
+.asliddin__footer .footer__box  {
+    padding: 0 0 105px 0;
+    z-index: 3;
+    position: relative;
+}
+.asliddin__footer .footer__box img {
+    width: 48px;
+    display: flex;
+    margin: 0 auto;
+}
+.asliddin .footer__header {
+    padding-bottom: 30px;
+    margin-top: 10px;
+    border-bottom: 1px solid #555;
+    align-items: center; 
+    color: #fff; 
+    justify-content: space-between;
+    display: none; 
+}
+.asliddin .footer__header .icons {
+    display: flex;
+    gap: 20px;
+}
+.asliddin .footer__header .icons .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFDFDF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.asliddin .footer__header .icons .icon:hover {
+    background-color: #B9642F;
+    color: white;
+}
+.asliddin .footer__header .icons .icon:hover 
+.asliddin .footer__header i {
+    color: #fff;
+}
+.asliddin .footer__header i {
+    color: #211105;
+}
+.asliddin .footer__flex {
+    display: flex;
+    height: 131px;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+}
+.asliddin .footer__left {
+    margin-right: auto;
+}   
+
+.asliddin .footer__center {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.asliddin .footer__center .icons {
+    display: flex;
+    justify-content: space-between;
+}
+.asliddin .footer__center .icons .icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #DFDFDF;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+.asliddin .footer__center i {
+    color: #211105;
+}
+.asliddin .footer__center .icons .icon:hover {
+    background-color: #B9642F;
+    color: white;
+}
+.asliddin .footer__center .icons .icon:hover 
+.asliddin .footer__center i {
+    color: #fff;
+}
+.asliddin .footer__center h2 {
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 30.47px;
+}
+.asliddin .footer__end {
+    margin-left: auto;
+    text-align: end;
+}
+.asliddin .footer__flex ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+.asliddin .footer__flex ul li a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color: #fff;
+    transition: all ease 0.3s;
+}
+.asliddin .footer__flex .footer__left li a:hover {
+    opacity: 50%;
+    margin: 2px;
+}
+.asliddin .footer__flex .footer__end li a:hover {
+    opacity: 50%;
+    margin: 2px;
+}
+.asliddin .footer__flex ul .marked__text {
+    color: #B9642F;
+}    
+/* asliddin responsive */
+@media (max-width: 1024px) {
+    .asliddin .form-card__box {
+        flex-direction: column;
+        padding: 80px 40px;
+    }
+    .asliddin .form-card__box .form__content {
+        text-align: center;
+        max-width: 100%;
+    }
+    .asliddin .form-card__box .form__content p {
+        margin-bottom: 10px;
+    }
+    .asliddin .form-card__box form input {
+        padding: 7px 21px;
+    }
+    .asliddin .form-card__box form button {
+        padding: 7px 37px;
+    }
+    .asliddin .footer__center {
+        display: none;
+    }
+    .asliddin .footer__header  {
+        display: flex;
+    }
+    .asliddin .footer__flex {
+        padding-top: 20px;
+    }
+    .asliddin__footer .footer__box  {
+        padding: 0 0 80px 0;
+    }
+    .asliddin .footer__flex ul li a {
+        font-size: 13px;
+    }
+    .asliddin .footer__flex ul {
+        width: auto;
+    }
+}
+@media (max-width: 500px) {
+    .asliddin .form-card__box .form__content h2 {
+        font-size: 25px;
+        line-height: 30.6px;
+        margin-bottom: 14px;
+    }
+    .asliddin .form-card__box .form__content p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .asliddin .form-card__box form input {
+        padding: 7px 15px;
+        font-size: 12px;
+    }
+    .asliddin .form-card__box form input::placeholder {
+        font-size: 12px;
+    }
+    .asliddin .form-card__box form button {
+        padding: 7px 27px;
+        font-size: 14px;
+    }
+    .asliddin .footer__header .icons .icon {
+        width: 30px;
+        height: 30px;
+    }
+    .asliddin .footer__header h2 {
+        font-size: 20px;
+    }
+    .asliddin .footer__flex ul li a {
+        font-size: 10px;
+    }
+    .asliddin .footer__flex {
+        height: 90px;
+    }
+}
+/* asliddin css end */
